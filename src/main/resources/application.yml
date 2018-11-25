@@ -14,7 +14,7 @@ management:
 endpoints:
   shutdown:
     enabled: true
-
+ 
 info:
    app:
       name: spring-boot-actuator

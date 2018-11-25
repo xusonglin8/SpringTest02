@@ -16,7 +16,7 @@ import com.cn.tai.pojo.User;
 
 @EnableConfigurationProperties({ConfigBean.class,User.class})
 public class ConfigController {
-	@Autowired
+	@Autowired 
 	private  ConfigBean conf;
 	@Autowired
 	private  User user;

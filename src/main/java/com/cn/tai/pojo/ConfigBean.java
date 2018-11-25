@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 import lombok.Data;
 import lombok.ToString;
-
+ 
 @ConfigurationProperties(prefix="my")
 @Configuration
 @Component
