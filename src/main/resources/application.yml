@@ -1,0 +1,42 @@
+
+admin-server: 80001
+
+server:
+  port: 8080
+
+admin-client: 80011
+
+management:
+  security:
+    enabled: false
+  port: 8005 
+  context-path: /c
+endpoints:
+  shutdown:
+    enabled: true
+
+info:
+   app:
+      name: spring-boot-actuator
+      version: 1.0.0
+
+
+spring:
+  profiles: goodbye
+name: xxx
+  
+---
+
+spring:
+  profiles: file
+name: why
+
+---
+
+spring:  
+  profiles: 
+    active: goodbye
+
+
+
+  
